@@ -1,0 +1,19 @@
+.workflow {
+  width: 33vw;
+  background-color: beige;
+  min-width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+/* heading */
+
+.workflow_heading {
+  display: flex;
+}
+.workflow_logo {
+  color: var(--primary-color);
+}
+
+
