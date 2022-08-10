@@ -12,6 +12,7 @@
   display: flex;
   align-items: middle;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .workflow_logo {
   color: var(--primary-color);
@@ -34,7 +35,7 @@
 }
 .workflow_body_subtitle {
   text-align: center;
-  color: var(--dark-grey-text);
+  color: var(--grey-dark);
   font-weight: 600;
 }
 .input_wrapper {
@@ -51,14 +52,76 @@
   border-radius: 5px;
   font-size: 1rem;
   margin-top: 20px;
+  cursor: pointer;
 }
 .input {
-  border: 1px solid var(--dark-grey-text);
+  border: 1px solid #dfdfdf;
   border-radius: 5px;
   padding: 13px;
   font-size: 0.9rem;
 }
 .input_label {
   margin-bottom: 5px;
-  color: var(--dark-grey-text);
+  color: #586275;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.select_card {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  width: 150px;
+  cursor: pointer;
+}
+.select_card:hover .card_icons {
+  color: var(--primary-color);
+}
+.card_icons {
+  font-size: 1.4rem;
+}
+.card_title {
+  font-weight: bold;
+}
+.card_subtitle {
+  color: var(--grey-dark);
+}
+.icon {
+  margin-top: 50px;
+  color: var(--primary-color);
+  font-size: 4rem;
+  text-align: center;
+}
+.content_body {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.input_link_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.input_link {
+  border: none;
+  padding: 13px;
+  font-size: 0.9rem;
+  width: 100%;
+  border-left: 1px solid #dfdfdf;
+}
+.input_label_link {
+  margin-bottom: 5px;
+  color: #586275;
+}
+.input_span {
+  padding: 10px 8px;
+  font-size: 1rem;
+  background-color: #f8f9fc;
+  color: #949fb7;
 }

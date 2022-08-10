@@ -7,8 +7,7 @@ const WorkFlowNavigation = ({ activePage, arr }) => {
         <NavigationBall
           key={i}
           index={i + 1}
-          activePage={2}
-          currentIndex={2}
+          activePage={activePage}
           lastIndex={arr.length}
         />
       ))}
@@ -16,7 +15,7 @@ const WorkFlowNavigation = ({ activePage, arr }) => {
   );
 };
 
-const NavigationBall = ({ index, activePage, currentIndex, lastIndex }) => {
+const NavigationBall = ({ index, activePage, lastIndex }) => {
   return (
     <div className={styles.navigation_ball_wrapper}>
       {index > 1 && (
