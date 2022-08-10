@@ -7,6 +7,7 @@ import { useState } from "react";
 const WorkFlow = ({}) => {
   const [currPage, setCurrPage] = useState(1);
 
+  //To Add more pages, use the template similar to the firstPage and add it to the pageArr.
   const pageArr = [firstPage, secondPage, thirdPage, fourthPage];
 
   return (
